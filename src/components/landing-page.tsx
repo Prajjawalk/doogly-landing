@@ -21,7 +21,8 @@ import {
 export function LandingPageComponent() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-500 text-white">
-      <header className="container mx-auto py-6">
+      <header className="container mx-auto py-6 flex items-center gap-2">
+        <img src="/doogly-logo.png" alt="Doogly Logo" className="h-12 w-12" />
         <h1 className="text-4xl font-bold">Doogly</h1>
       </header>
 
