@@ -40,7 +40,7 @@ export function LandingPageComponent() {
             size="lg"
             className="bg-yellow-400 text-purple-900 hover:bg-yellow-300"
           >
-            Get Started
+            Coming Soon
           </Button>
         </section>
 
@@ -137,7 +137,7 @@ export function LandingPageComponent() {
         </section>
 
         {/* CTA Section */}
-        <section className="text-center">
+        {/* <section className="text-center">
           <h3 className="text-3xl font-bold mb-6">
             Ready to Start Your Crypto Donation Campaign?
           </h3>
@@ -147,7 +147,7 @@ export function LandingPageComponent() {
           >
             Launch Your Campaign Now
           </Button>
-        </section>
+        </section> */}
       </main>
 
       <footer className="container mx-auto py-6 text-center">
