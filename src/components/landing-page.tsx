@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -36,12 +35,12 @@ export function LandingPageComponent() {
             Receive donations in crypto and reward donors with unique NFTs
             (Hypercerts)
           </p>
-          <Button
-            size="lg"
+          <a
             className="bg-yellow-400 text-purple-900 hover:bg-yellow-300"
+            href="https://app.doogly.org"
           >
-            Coming Soon
-          </Button>
+            Try Alpha
+          </a>
         </section>
 
         {/* How it Works Section */}
